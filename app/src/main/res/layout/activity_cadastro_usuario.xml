@@ -48,7 +48,6 @@
             android:hint="Email"
             android:inputType="textEmailAddress" />
 
-        <!-- RadioButton para tamanho de roupas -->
         <RadioGroup
             android:id="@+id/radioGroupTamanho"
             android:layout_width="match_parent"
