@@ -12,7 +12,7 @@ public class CadastroUsuarioActivity extends AppCompatActivity {
     private EditText editTextNome, editTextIdade, editTextUF, editTextCidade, editTextTelefone, editTextEmail;
     private RadioGroup radioGroupTamanho;
     private RadioButton radioButtonP, radioButtonM, radioButtonG;
-    private CheckBox checkBoxPreto, checkBoxBranco, checkBoxVermelho;
+    private CheckBox checkBoxPreto, checkBoxBranco, checkBoxVermelho, checkBoxAzul;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,6 +31,7 @@ public class CadastroUsuarioActivity extends AppCompatActivity {
         radioButtonG = findViewById(R.id.radioButtonG);
         checkBoxPreto = findViewById(R.id.checkBoxPreto);
         checkBoxBranco = findViewById(R.id.checkBoxBranco);
+        checkBoxAzul = findViewById(R.id.checkBoxAzul);
         checkBoxVermelho = findViewById(R.id.checkBoxVermelho);
 
     }

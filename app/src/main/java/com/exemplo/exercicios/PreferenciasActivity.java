@@ -39,7 +39,7 @@ public class PreferenciasActivity extends AppCompatActivity {
                     sb.setLength(sb.length() - 2); // Remove the trailing comma and space
                     Toast.makeText(PreferenciasActivity.this, sb.toString(), Toast.LENGTH_LONG).show();
                 } else {
-                    Toast.makeText(PreferenciasActivity.this, "Nenhuma preferência foi escolhida", Toast.LENGTH_LONG).show();
+                    Toast.makeText(PreferenciasActivity.this, "Nenhuma preferência selecionada", Toast.LENGTH_LONG).show();
                 }
             }
         });

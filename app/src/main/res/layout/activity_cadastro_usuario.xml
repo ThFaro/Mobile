@@ -2,10 +2,11 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
+
     <LinearLayout
-        android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:orientation="vertical"
         android:padding="16dp">
 
         <EditText
@@ -18,8 +19,8 @@
             android:id="@+id/editTextIdade"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="number"
-            android:hint="Idade" />
+            android:hint="Idade"
+            android:inputType="number" />
 
         <EditText
             android:id="@+id/editTextUF"
@@ -37,31 +38,34 @@
             android:id="@+id/editTextTelefone"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="phone"
-            android:hint="Telefone" />
+            android:hint="Telefone"
+            android:inputType="phone" />
 
         <EditText
             android:id="@+id/editTextEmail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="textEmailAddress"
-            android:hint="Email" />
+            android:hint="Email"
+            android:inputType="textEmailAddress" />
 
         <!-- RadioButton para tamanho de roupas -->
         <RadioGroup
             android:id="@+id/radioGroupTamanho"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
+
             <RadioButton
                 android:id="@+id/radioButtonP"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="P" />
+
             <RadioButton
                 android:id="@+id/radioButtonM"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="M" />
+
             <RadioButton
                 android:id="@+id/radioButtonG"
                 android:layout_width="wrap_content"
@@ -69,28 +73,34 @@
                 android:text="G" />
         </RadioGroup>
 
-        <!-- CheckBoxes para cores preferidas -->
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Selecione suas cores preferidas:" />
+            android:text="Seleção de cores:" />
 
         <CheckBox
             android:id="@+id/checkBoxPreto"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Preto" />
+
         <CheckBox
             android:id="@+id/checkBoxBranco"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Branco" />
+
+        <CheckBox
+            android:id="@+id/checkBoxAzul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Azul" />
+
         <CheckBox
             android:id="@+id/checkBoxVermelho"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Vermelho" />
-        <!-- Adicione mais CheckBoxes conforme necessário -->
 
     </LinearLayout>
 </ScrollView>

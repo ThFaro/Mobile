@@ -51,7 +51,7 @@ public class CalculadoraActivity extends AppCompatActivity {
                 if (n2 != 0) {
                     result = n1 / n2;
                 } else {
-                    textoResultado.setText("Erro: divisão por zero!");
+                    textoResultado.setText("DIVISÃO POR 0 NÃO PERMITIDA");
                     return;
                 }
                 break;
