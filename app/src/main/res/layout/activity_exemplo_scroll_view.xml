@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+<TextView
+    android:id="@+id/textView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\n
+
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam finibus lorem ac magna sodales, et maximus ex scelerisque. Praesent vitae nisl neque. Vivamus molestie, massa sit amet auctor mattis, velit ante convallis dolor, eget vestibulum enim justo a nunc. Suspendisse potenti. Cras eu nulla at sem aliquam posuere non nec arcu. Morbi consequat sed massa at lacinia. Suspendisse quis felis et lectus vestibulum varius. Morbi condimentum enim nec justo rhoncus, at auctor orci maximus. Fusce sed consectetur libero. Nam pellentesque lacus vel ullamcorper pretium. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.\n\n
+
+    Pellentesque id velit aliquet, venenatis nisi sed, congue erat. Nunc quis velit facilisis, luctus nunc ut, fermentum mauris. Cras sit amet libero non quam tempor commodo. Praesent mollis lacinia quam, non commodo risus auctor quis. Etiam et tortor et ipsum dictum eleifend. Ut id consectetur mauris, in dignissim nunc. Sed nec velit eget diam consectetur aliquet at ac massa. Mauris massa nunc, consectetur a dolor eu, faucibus venenatis augue. Fusce vestibulum at enim sit amet tempor. Cras volutpat, nibh at vehicula gravida, arcu massa luctus nibh, eu posuere odio lorem non magna.\n\n
+
+    Fusce egestas ante erat, in auctor mi blandit a. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lobortis, nisl laoreet vehicula aliquet, magna lorem suscipit massa, non iaculis ex velit quis lacus. Cras magna velit, maximus eget congue in, sollicitudin in libero. Praesent at enim sagittis, dapibus est vel, bibendum magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec velit est. Proin dapibus, dolor at consequat laoreet, sapien massa sollicitudin est, sed commodo velit libero nec velit.\n\n
+
+    Nullam et felis et mauris aliquet viverra. Nulla facilisi. Duis sagittis maximus nulla, sed sodales orci pellentesque eget. Nulla facilisi. Integer gravida dignissim tortor, et pulvinar risus gravida sit amet. Nulla posuere sollicitudin aliquam. Aliquam erat volutpat. Sed laoreet massa at dui gravida, sed ornare metus mattis. Etiam felis velit, aliquet eu laoreet vel, aliquet sed lorem. Sed ornare fermentum metus, eget accumsan justo imperdiet congue. Curabitur vel urna nunc. Nulla facilisi.
+orem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\n
+
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam finibus lorem ac magna sodales, et maximus ex scelerisque. Praesent vitae nisl neque. Vivamus molestie, massa sit amet auctor mattis, velit ante convallis dolor, eget vestibulum enim justo a nunc. Suspendisse potenti. Cras eu nulla at sem aliquam posuere non nec arcu. Morbi consequat sed massa at lacinia. Suspendisse quis felis et lectus vestibulum varius. Morbi condimentum enim nec justo rhoncus, at auctor orci maximus. Fusce sed consectetur libero. Nam pellentesque lacus vel ullamcorper pretium. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.\n\n
+
+    Pellentesque id velit aliquet, venenatis nisi sed, congue erat. Nunc quis velit facilisis, luctus nunc ut, fermentum mauris. Cras sit amet libero non quam tempor commodo. Praesent mollis lacinia quam, non commodo risus auctor quis. Etiam et tortor et ipsum dictum eleifend. Ut id consectetur mauris, in dignissim nunc. Sed nec velit eget diam consectetur aliquet at ac massa. Mauris massa nunc, consectetur a dolor eu, faucibus venenatis augue. Fusce vestibulum at enim sit amet tempor. Cras volutpat, nibh at vehicula gravida, arcu massa luctus nibh, eu posuere odio lorem non magna.\n\n
+
+    Fusce egestas ante erat, in auctor mi blandit a. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lobortis, nisl laoreet vehicula aliquet, magna lorem suscipit massa, non iaculis ex velit quis lacus. Cras magna velit, maximus eget congue in, sollicitudin in libero. Praesent at enim sagittis, dapibus est vel, bibendum magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec velit est. Proin dapibus, dolor at consequat laoreet, sapien massa sollicitudin est, sed commodo velit libero nec velit.\n\n
+
+    Nullam et felis et mauris aliquet viverra. Nulla facilisi. Duis sagittis maximus nulla, sed sodales orci pellentesque eget. Nulla facilisi. Integer gravida dignissim tortor, et pulvinar risus gravida sit amet. Nulla posuere sollicitudin aliquam. Aliquam erat volutpat. Sed laoreet massa at dui gravida, sed ornare metus mattis. Etiam felis velit, aliquet eu laoreet vel, aliquet sed lorem. Sed ornare fermentum metus, eget accumsan justo imperdiet congue. Curabitur vel urna nunc. Nulla facilisi."
+    android:padding="16dp"/>
+</LinearLayout>
+    </ScrollView>
