@@ -1,3 +1,11 @@
 <resources>
-    <string name="app_name">Mobile</string>
+    <string name="app_name">Catálogo de Filmes</string>
+    <string-array name="movie_genres">
+        <item>Ação</item>
+        <item>Drama</item>
+        <item>Comédia</item>
+        <item>Ficção</item>
+        <item>Horror</item>
+        <item>Romance</item>
+    </string-array>
 </resources>
