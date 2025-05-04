@@ -16,6 +16,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Locale;
+import java.util.Objects;
 
 public class CadastroActivity extends AppCompatActivity {
 
@@ -102,7 +103,7 @@ public class CadastroActivity extends AppCompatActivity {
             Calendar cal = Calendar.getInstance();
             Calendar agora = Calendar.getInstance();
 
-            cal.setTime(sdf.parse(horario));
+            cal.setTime(Objects.requireNonNull(sdf.parse(horario)));
             cal.set(Calendar.YEAR, agora.get(Calendar.YEAR));
             cal.set(Calendar.MONTH, agora.get(Calendar.MONTH));
             cal.set(Calendar.DAY_OF_MONTH, agora.get(Calendar.DAY_OF_MONTH));
